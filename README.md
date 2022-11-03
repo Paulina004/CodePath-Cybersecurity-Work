@@ -79,7 +79,7 @@ GIFs created with  ...
 ## Notes
 
 Describe any challenges encountered while doing the work.
-- One large challenge I had was trying to set up WordPress in the Unit 7 lab. 
+- One large challenge I had was trying to set up WordPress. 
   - I had difficulty actually getting the WordPress website up and running on a browser on both my local host machine and my Kali Linux VM. In order to fix this issue, I had to fix the config file within the WPDistillery folder I created in my $HOME directory on my local host machine. 
 
 ## License
