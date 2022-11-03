@@ -6,14 +6,14 @@ Time spent: **20** hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+### 1. (Required) WordPress <= 4.2.3 - Legacy Theme Preview Cross-Site Scripting (XSS)
+CVE-2015-5734
+- [x] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2 
+  - Fixed in version: 4.2.4
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF; this link is also written here: ```<a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Test</a>```. When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
@@ -21,7 +21,7 @@ Time spent: **20** hours spent in total
 
 - [ ] Summary: 
   - Vulnerability types:
-  - Tested in version:
+  - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
@@ -32,7 +32,7 @@ Time spent: **20** hours spent in total
 
 - [ ] Summary: 
   - Vulnerability types:
-  - Tested in version:
+  - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
@@ -43,7 +43,7 @@ Time spent: **20** hours spent in total
 
 - [ ] Summary: 
   - Vulnerability types:
-  - Tested in version:
+  - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
@@ -54,7 +54,7 @@ Time spent: **20** hours spent in total
 
 - [ ] Summary: 
   - Vulnerability types:
-  - Tested in version:
+  - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
