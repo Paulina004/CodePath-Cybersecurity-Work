@@ -14,7 +14,7 @@ CVE-2015-5734
   - Fixed in version: 4.2.4
 - [x] GIF Walkthrough: 
 <img src="exploit_1.gif" alt="Exploit 1">
-- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF; this link is also written here: ```<a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Test</a>```. When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
+- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF; this link is also written here: ``` <a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Test</a> ```. When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
