@@ -14,10 +14,12 @@ CVE-2015-5734
   - Fixed in version: 4.2.4
 - [x] GIF Walkthrough: 
 <img src="exploit_1.gif" alt="Exploit 1">
+
 - [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
 - [x] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
+ 
 ### 2. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
@@ -28,6 +30,7 @@ CVE-2015-5734
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 
 ### 3. (Required) Vulnerability Name or ID
 
@@ -40,6 +43,7 @@ CVE-2015-5734
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
+
 ### 4. (Optional) Vulnerability Name or ID
 
 - [ ] Summary: 
@@ -50,6 +54,7 @@ CVE-2015-5734
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
 
 ### 5. (Optional) Vulnerability Name or ID
 
@@ -62,9 +67,11 @@ CVE-2015-5734
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
+
 ## Assets
 
 List any additional assets, such as scripts or files
+
 
 ## Resources
 
@@ -77,11 +84,13 @@ GIFs created with  ...
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+
 ## Notes
 
 Describe any challenges encountered while doing the work.
 - One large challenge I had was trying to set up WordPress. 
   - I had difficulty actually getting the WordPress website up and running on a browser on both my local host machine and my Kali Linux VM. In order to fix this issue, I had to fix the config file within the WPDistillery folder I created in my $HOME directory on my local host machine. 
+
 
 ## License
 
