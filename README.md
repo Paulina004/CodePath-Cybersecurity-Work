@@ -26,7 +26,7 @@ CVE-2015-5734
   - Vulnerability types: XSS
   - Tested in version: 4.2
   - Fixed in version: 4.2.6
-- [ ] GIF Walkthrough: 
+- [x] GIF Walkthrough: 
 <img src="exploit_2.gif" alt="Exploit 2">
 
 - [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. When this HTML hyperlink is posted, it will prompt an alert that pops up every time the website is loaded.
