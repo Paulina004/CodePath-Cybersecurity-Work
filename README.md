@@ -25,7 +25,7 @@ CVE-2015-5734
 - [ ] Summary: 
   - Vulnerability types:
   - Tested in version: 4.2
-  - Fixed in version: 
+  - Fixed in version: 4.2.6
 - [ ] GIF Walkthrough: 
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
