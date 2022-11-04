@@ -22,14 +22,16 @@ CVE-2015-5734
  
 ### 2. (Required) Vulnerability Name or ID
 
-- [ ] Summary: 
-  - Vulnerability types:
+- [x] Summary: 
+  - Vulnerability types: XSS
   - Tested in version: 4.2
   - Fixed in version: 4.2.6
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+<img src="exploit_2.gif" alt="Exploit 2">
+
+- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. When this HTML hyperlink is posted, it will prompt an alert that pops up every time the website is loaded.
+- [x] Affected source code:
+  - [Link 1](https://core.trac.wordpress.org/changeset/36185/trunk/src/wp-includes/class-wp-theme.php)
 
 
 ### 3. (Required) Vulnerability Name or ID
@@ -39,6 +41,8 @@ CVE-2015-5734
   - Tested in version: 4.2
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
+<img src="exploit_3.gif" alt="Exploit 3">
+
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
