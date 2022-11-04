@@ -15,7 +15,7 @@ CVE-2015-5734
 - [x] GIF Walkthrough: 
 <img src="exploit_1.gif" alt="Exploit 1">
 - [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
-- [ ] Affected source code:
+- [x] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
 ### 2. (Required) Vulnerability Name or ID
