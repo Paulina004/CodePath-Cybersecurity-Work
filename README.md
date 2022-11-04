@@ -15,7 +15,7 @@ CVE-2015-5734
 - [x] GIF Walkthrough: 
 <img src="exploit_1.gif" alt="Exploit 1">
 
-- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. You can also find the code [here](exploit_1_code.txt). When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
+- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. You can also find the script for the comment [here](exploit_1_code.txt). When this HTML hyperlink is posted, it will prompt an alert that constantly continues to pop up when the user scrolls up to a certain area of the website.
 - [x] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/33549/branches/4.2/src/wp-includes/theme.php)
   
@@ -29,7 +29,7 @@ CVE-2015-5734
 - [x] GIF Walkthrough: 
 <img src="exploit_2.gif" alt="Exploit 2">
 
-- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. When this HTML hyperlink is posted, it will prompt an alert that pops up every time the website is loaded.
+- [x] Steps to recreate: When logged into your administrator account, navigate to a post and leave a comment. The comment should be the link shown in the GIF. You can also find the script for the comment [here](exploit_2_code.txt). When this HTML hyperlink is posted, it will prompt an alert that pops up every time the website is loaded.
 - [x] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/36185/trunk/src/wp-includes/class-wp-theme.php)
 
