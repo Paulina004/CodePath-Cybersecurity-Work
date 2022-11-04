@@ -20,8 +20,8 @@ CVE-2015-5734
   - [Link 1](https://core.trac.wordpress.org/changeset/33549/branches/4.2/src/wp-includes/theme.php)
   
  
-### 2. (Required) Vulnerability Name or ID
-
+### 2. (Required) WordPress 3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+CVE-2016-1564
 - [x] Summary: 
   - Vulnerability types: XSS
   - Tested in version: 4.2
