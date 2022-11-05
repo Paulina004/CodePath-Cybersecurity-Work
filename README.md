@@ -35,9 +35,9 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR) 
 
-Description:
+Description: The red site has a vulnerability that the other two websites (the green and blue sites) do not have. If you navigate to the “Find a Salesperson” area on any of the three sites and click on a person in the list, you will notice (as shown in the GIF) that the ID of the employee is located in the URL. For the green and blue sites, if you try to change the ID to that of an employee whose information should not be accessible, the site will simply kick you back to the “Find a Salesperson” main menu. However, if you try to perform the same test on the red site, you will see some sensitive employee information that should not be made publicly available. For example, if you change the ID to 10 (as shown in the GIF), you will see an employee named Testy McTesterson whose data should not be made available until September 1st. Another example is if you change the ID to 11 (as shown in the GIF); you will see an employee named Lazy Lazyman who was fired for stealing and who should not be accessible.
 
 <img src="red-vuln1.gif">
 
