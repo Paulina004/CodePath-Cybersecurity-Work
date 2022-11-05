@@ -36,7 +36,10 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ### Vulnerability #1
 
+Username Enumeration
+
 ### Description
+The green site has a username enumeration vulnerability. If you navigate to the “Login” tab and put a username that does not exist (along with a password), you will see that the login error message will be labeled under the class “failed”. However, if you put a username that does exist (“pperson” or “jmonroe99”, in our case), the login error message will be labeled under the class “failure”. The process of checking these classes is displayed in the GIF demo. This is a very careless mistake on the part of the developer because a hacker can easily see which usernames exist and which do not exist when they attempt to brute-force or use another type of technique to confirm valid users in the system.
 
 <img src="green-vuln1.gif">
 
