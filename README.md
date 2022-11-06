@@ -26,13 +26,6 @@ The blue site has a vulnerability that can be targeted by session hijacking or s
 <img src="blue-vuln1.gif">
 
 
-### Vulnerability #2
-
-### Description
-
-<img src="blue-vuln2.gif">
-
-
 
 ## Green
 
@@ -47,8 +40,10 @@ The green site has a username enumeration vulnerability. If you navigate to the 
 
 
 ### Vulnerability #2
+Cross-Site Scripting (XSS)
 
 ### Description
+
 
 <img src="green-vuln2.gif">
 
@@ -65,15 +60,8 @@ The red site has a vulnerability that the other two websites (the green and blue
 <img src="red-vuln1.gif">
 
 
-### Vulnerability #2
-Cross-Site Request Forgery (CSRF) 
-
-### Description
-
-<img src="red-vuln2.gif">
-
-
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Describe any challenges encountered while doing the work.
+- One challenge I had was with the 
