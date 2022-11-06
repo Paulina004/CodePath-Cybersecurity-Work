@@ -43,7 +43,7 @@ The green site has a username enumeration vulnerability. If you navigate to the 
 Cross-Site Scripting (XSS)
 
 ### Description
-
+Start here.
 
 <img src="green-vuln2.gif">
 
