@@ -18,8 +18,10 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 ## Blue
 
 ### Vulnerability #1
+Session Hijacking/Fixation
 
 ### Description
+The blue site has a vulnerability that can be targeted by session hijacking or session fixation. Here, session hijacking is displayed. First, log in to the staff account (this is done using the username “pperson” and its associated password) on one browser, which in this case was Firefox. On the Firefox browser with the blue site open, change the session ID by using this attachment to the end of the URL: "public/hacktools/change_session_id.php". On a different browser (in this case, Chrome), navigate to the blue site and change its session ID in the same way. Change the session ID to the same session ID of the logged in staff account from the Firefox browser. If you then attempt to log in on Chrome, you will be able to access the staff account. This is a very bad vulnerability to have for a system because an attacker can see anything in the staff area of the blue site. 
 
 <img src="blue-vuln1.gif">
 
