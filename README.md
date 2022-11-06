@@ -64,4 +64,4 @@ The red site has a vulnerability that the other two websites (the green and blue
 ## Notes
 
 Describe any challenges encountered while doing the work.
-- One challenge I had was with the 
+- One challenge I had was with the session hijacking vulnerability for the blue site. I had to wait until the site refreshed at 2AM to get two different session IDs for the websites in order to record it for the GIF demo. However, this was a very minor error.
