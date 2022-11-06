@@ -43,7 +43,7 @@ The green site has a username enumeration vulnerability. If you navigate to the 
 Cross-Site Scripting (XSS)
 
 ### Description
-Start here.
+The green site has a cross-site scripting (XSS) vulnerability. This vulnerability is found when leaving feedback on the “Contact” tab. If a user enters a random email and feedback comment and then injects JavaScript into the name section of the form, a stored XSS attack can be achieved. When an admin logs into the staff admin area to look through the feedback given by customers, they will see the alert that the injected script shown in the GIF created. As you can see in the GIF, since other students also performed the same attack, there were multiple XSS alerts to click through, but the one performed on my computer was also there amongst the crowd. 
 
 <img src="green-vuln2.gif">
 
