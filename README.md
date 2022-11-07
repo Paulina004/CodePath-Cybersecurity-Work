@@ -41,7 +41,8 @@ CVE-2015-3440
   - Tested in version: 4.2
   - Fixed in version: 4.2.1
 - [x] GIF Walkthrough: 
-<img src="exploit_3_1.gif" alt="Exploit 3">
+<img src="exploit_3_1.gif" alt="Exploit 3.1">
+<img src="exploit_3_2.gif" alt="Exploit 3.2">
 
 - [x] Steps to recreate: In order to execute the exploit, a user account must post an extremely long comment that is a link, such as shown in the first GIF. This comment must be extremely large so that an alert will constantly appear whenever the user is on the webpage. This alert is written in the HTML<a> link, as shown in the GIF. The alert displays “hello world”. It is important to note that, for a user account must create this exploit comment, that particular user must be approved by an administrator account to post comments. Once an administrator account has approved the user, the user can comment freely without having to wait again for admin approval. How to execute this approval process is shown in the second GIF.
 - [x] Affected source code:
