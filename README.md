@@ -34,47 +34,25 @@ CVE-2016-1564
   - [Link 1](https://core.trac.wordpress.org/changeset/36185/trunk/src/wp-includes/class-wp-theme.php)
 
 
-### 3. (Required) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
+### 3. (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
+CVE-2015-3440
+- [x] Summary: 
+  - Vulnerability types: XSS
   - Tested in version: 4.2
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
+  - Fixed in version: 4.2.1
+- [x] GIF Walkthrough: 
 <img src="exploit_3.gif" alt="Exploit 3">
 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+- [x] Steps to recreate: First, a user account must create a comment, which must be approved by an administrator account. Once an administrator account has approved the user account’s comment, the user can comment freely without having to wait again for admin approval. In order to execute the exploit, the user account must post an extremely long comment that is a link (such as shown in the gif). This link must be extremely large so that, when the user’s mouse moves off and on the browser window, an alert will appear. This alert is written in the HTML<a> link, as shown in the gif. The alert displays “hello world”.
+- [x] Affected source code:
+  - [Link 1](hhttps://core.trac.wordpress.org/changeset/32299/trunk/src/wp-includes/wp-db.php)
 
-
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version: 4.2
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version: 4.2
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 
 ## Assets
 
-List any additional assets, such as scripts or files
+List any additional assets, such as scripts or files.
+- Any scripts that I used are contained in this repo and linked to in the recreation steps for these exploits. 
 
 
 ## Resources
@@ -82,7 +60,7 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
+GIFs created with ShareX (14.1).
 <!-- Recommended GIF Tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -94,20 +72,3 @@ GIFs created with  ...
 Describe any challenges encountered while doing the work.
 - One large challenge I had was trying to set up WordPress. 
   - I had difficulty actually getting the WordPress website up and running on a browser on both my local host machine and my Kali Linux VM. In order to fix this issue, I had to fix the config file within the WPDistillery folder I created in my $HOME directory on my local host machine. 
-
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
