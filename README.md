@@ -72,4 +72,6 @@ GIFs created with ShareX (14.1).
 
 Describe any challenges encountered while doing the work.
 - One large challenge I had was trying to set up WordPress. 
-  - I had difficulty actually getting the WordPress website up and running on a browser on both my local host machine and my Kali Linux VM. In order to fix this issue, I had to fix the IP address in the config file within the WPDistillery folder I created in my $HOME directory on my local host machine. I changed the IP address everywhere else but not in the config file, so changing it in the config file solved the problem for me.
+  - I had difficulty actually getting the WordPress website up and running on a browser on both my local host machine and my Kali Linux VM. 
+  - This problem (along with the setup in general) took me a grand total of about 6-7 hours.
+      - In order to fix this issue, I had to fix the IP address in the config file within the WPDistillery folder I created in my $HOME directory on my local host machine. I changed the IP address everywhere else but not in the config file, so changing it in the config file solved the problem for me.
