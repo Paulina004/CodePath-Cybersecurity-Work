@@ -27,6 +27,10 @@ Dionaea is a type of honeypot, specifically a low-interaction honeypot. The purp
 
 Above is a gif that shows proof that I set up the honeypot VM. The gif also shows the honeypot under Sensors >> View sensors in MHN Admin application. 
 
+Here is a picture of the attack done on the honeypot to ensure that it worked:
+
+<img src="kali-nmap.PNG">
+
 
 ---
 ### Database Backup (Required) 
