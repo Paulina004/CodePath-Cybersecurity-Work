@@ -13,7 +13,7 @@
 
 To deploy MHN-Admin, I used GCP. For the most part, I followed the steps CodePath provided. However, there were many issues I encountered when using Google Cloud that took a very long time for me to figure out and caused me to add additional steps to make the VM possible to deploy. For example, I found out that I could not create a GCP Free Tier account with my FAU Google school account; trying to create firewall rules with that account was impossible. I winded up completely deleting the project I had made with that account, and I instead redid the whole setup process with one of my personal Google accounts. This fixed the problem I had creating firewall rules, but then creating the VM also started causing problems. For many of the zones I configured, they kept saying that those zones' resource pools were exhuasted. After changing the region and zone for the instance about rouighly 10 times, I finally found one zone (us-west1-b) that worked. Once I got past this step, I was able to get the external IP and put this in a browser to prove that the MHN Admin application was working.
 
-Below is a gif that shows proof of the deployed MHN Admin page and also shows the command prompt and VM in Ubuntu that got me to deploying it. 
+Above is a gif that shows proof of the deployed MHN Admin page and also shows the command prompt and VM in Ubuntu that got me to deploying it. 
 
 
 ---
@@ -25,7 +25,7 @@ Below is a gif that shows proof of the deployed MHN Admin page and also shows th
 
 Dionaea is a type of honeypot, specifically a low-interaction honeypot. The purpose of low-interaction honeypots is to collect basic information about the attacker of a system. Low-interaction honeypots are typically easy to setup and are most commonly used. Dionaea specifically is meant to capture information about malware that is exploiting things over a network. 
 
-Below is a gif that shows proof that I set up the honeypot VM. The gif also shows the honeypot under Sensors >> View sensors in MHN Admin application. 
+Above is a gif that shows proof that I set up the honeypot VM. The gif also shows the honeypot under Sensors >> View sensors in MHN Admin application. 
 
 
 ---
