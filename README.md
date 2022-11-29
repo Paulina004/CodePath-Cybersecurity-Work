@@ -29,7 +29,7 @@ Above is a gif that shows proof that I set up the honeypot VM. The gif also show
 
 Here is a picture of the attack done on the honeypot to ensure that it worked:
 
-<img src="kali-nmap.PNG">
+<img src="kali-nmap.png">
 
 
 ---
